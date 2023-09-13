@@ -71,6 +71,7 @@ Note: No compilation is needed in this part.
 cd react_web
 ./build.sh # This will install the required libraries and start the react ui server.
 ```
+The server will launch a page at http://localhost:3006.
 - Backend synthesizer
 ```shell
 cd back_end
