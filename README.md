@@ -13,10 +13,7 @@ the target website, (2) supporting greater autonomy and control over web automat
 ### Interface
 ![](Interface.png)
 
-### System Architecture
-MIWA consists of 3 parts: React UI, Backend System, and Chrome Extension. <br>
 
-![arch](arch.png)
 ### Files Path
 ```shell
 ├── back_end
@@ -53,8 +50,33 @@ MIWA consists of 3 parts: React UI, Backend System, and Chrome Extension. <br>
     └── yarn.lock
 ```
 ### Installation
+MIWA consists of 3 parts: React UI, Backend System, and Chrome Extension. <br>
+
+![arch](arch.png) <br>
+
+You will need to install/run these three parts. <br>
+- Chrome Extension
+
+1. Make sure the chrome browser has set to the developer mode in extension page.
+2. Load the extension and select the whole folder named "front_end".
+
+Note: No compilation is needed in this part.
+
+- React UI
+```shell
+cd react_web
+./build.sh // this will install the required libraries and start the react ui server.
+```
+- Backend synthesizer
+```shell
+cd back_end
+yarn build
+yarn start // this will start the backend server
+```
+After installation, you will need to launch the backend synthesizer and React UI. Then, open the target page and place it next to the React UI. Finally, launch the browser extension, click "start", and scrape the target elements on the page. The browser extension will begin monitoring the actions.
+
 ### Credits
-The project was developed under the supervision of Prof. Tianyi Zhang at Purdue and Prof. Xinyu Wang at UMich.
+The project was developed under the supervision of Prof. [Tianyi Zhang](https://tianyi-zhang.github.io/) at Purdue and Prof. [Xinyu Wang](https://web.eecs.umich.edu/~xwangsd/) at UMich.
 ### Citation
 If you find our work helpful, please cite:
 ```bibtex
