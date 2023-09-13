@@ -55,6 +55,9 @@ MIWA consists of 3 parts: React UI, Backend System, and Chrome Extension. <br>
 ![arch](arch.png) <br>
 
 You will need to install/run these three parts. <br>
+
+We have compressed the code in the zip file named Interactive-WebRobot-main.zip. You need to unzip it before installation.
+
 - Chrome Extension
 
 1. Make sure the chrome browser has set to the developer mode in extension page.
@@ -65,13 +68,13 @@ Note: No compilation is needed in this part.
 - React UI
 ```shell
 cd react_web
-./build.sh // this will install the required libraries and start the react ui server.
+./build.sh # This will install the required libraries and start the react ui server.
 ```
 - Backend synthesizer
 ```shell
 cd back_end
 yarn build
-yarn start // this will start the backend server
+yarn start # This will start the backend server
 ```
 After installation, you will need to launch the backend synthesizer and React UI. Then, open the target page and place it next to the React UI. Finally, launch the browser extension, click "start", and scrape the target elements on the page. The browser extension will begin monitoring the actions.
 
