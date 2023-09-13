@@ -14,6 +14,15 @@ the target website, (2) supporting greater autonomy and control over web automat
 ![](Interface.png)
 
 
+### Installation
+MIWA consists of 3 parts: React UI, Backend System, and Chrome Extension. <br>
+
+![arch](arch.png) <br>
+
+You will need to install/run these three parts. <br>
+
+We have compressed the code in the zip file named Interactive-WebRobot-main.zip. You need to unzip it before installation.
+
 ### Files Path
 ```shell
 ├── back_end
@@ -49,14 +58,6 @@ the target website, (2) supporting greater autonomy and control over web automat
     ├── src
     └── yarn.lock
 ```
-### Installation
-MIWA consists of 3 parts: React UI, Backend System, and Chrome Extension. <br>
-
-![arch](arch.png) <br>
-
-You will need to install/run these three parts. <br>
-
-We have compressed the code in the zip file named Interactive-WebRobot-main.zip. You need to unzip it before installation.
 
 - Chrome Extension
 
