@@ -71,14 +71,14 @@ Note: No compilation is needed in this part.
 cd react_web
 ./build.sh # This will install the required libraries and start the react ui server.
 ```
-The server will launch a page at http://localhost:3006.
+Note: The server will launch a page at http://localhost:3006.
 - Backend synthesizer
 ```shell
 cd back_end
 yarn build
 yarn start # This will start the backend server
 ```
-After installation, you will need to launch the backend synthesizer and React UI. Then, open the target page and place it next to the React UI. Finally, launch the browser extension, click "start", and scrape the target elements on the page. The browser extension will begin monitoring the actions.
+After installation, you will need to launch the backend synthesizer and React UI. Then, open the target page and place it next to the React UI. Finally, launch the browser extension, click "start", and scrape the target elements (using right click) on the page. The browser extension will begin monitoring the actions.
 
 ### Credits
 The project was developed under the supervision of Prof. [Tianyi Zhang](https://tianyi-zhang.github.io/) at Purdue and Prof. [Xinyu Wang](https://web.eecs.umich.edu/~xwangsd/) at UMich.
